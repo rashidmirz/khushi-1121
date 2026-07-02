@@ -8,6 +8,9 @@ export default defineConfig({
   resolve: {
     tsconfigPaths: true,
   },
+  build: {
+    outDir: "dist",
+  },
   plugins: [
     tailwindcss(),
     tanstackStart({
